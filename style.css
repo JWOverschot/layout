@@ -3,20 +3,31 @@
     	width: 60%;
         float: left;
     }
+    article p {
+    	padding-left: 365px;
+    }
     aside {
     	float: right;	
     	position: relative;
-    	top: -564px;
+    	top: -480px;
+    	right: 6px;
     }
     img {
 		width: 300px;
 		height: 250px;
-		margin-right: 20px;
 		float: left;
     }
     .article {
 		margin-left: 70px;
 		margin-right: 70px;
+	}
+	nav li:hover {
+		background-color: #f7cac9;
+	}
+	#error-img {
+		float: none;
+		display: block;
+		margin: auto;
 	}
 }
 
@@ -112,8 +123,9 @@ img {
 	width: 100%;
 	max-width: 350px;
 	max-height: 300px;
-	border-radius: 10px;
-	align-items: center;
+	border-radius: 7px;
+	display: block;
+	margin: auto;
 }
 
 aside img {
@@ -153,4 +165,8 @@ p {
 	background-color: rgba(25, 25, 25, 0.1);
 	padding: 20px;
 	border-radius: 12px;
+}
+
+#error {
+	font-size: 5em;
 }
