@@ -173,13 +173,17 @@ p {
     	align-self: flex-start;
     }
     .article {
+    	display: inline;
 		margin-left: 70px;
 		margin-right: 70px;
+		width: initial;
 	}
 	nav li:hover {
 		background-color: #f7cac9;
 	}
 	#error-img {
+		display: flex;
 		margin: auto;
+		justify-content: center;
 	}
 }
