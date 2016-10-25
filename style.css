@@ -102,7 +102,6 @@ aside {
 }
 
 aside:hover {
-	transform: rotate(99999999999999999999999999999999999999deg);
 	opacity: 0;
 	transition: 60s;
 }
@@ -139,20 +138,18 @@ p {
 @media screen and (min-width: 480px) {
 	content {
 		flex-direction: row;
-		width: 100%;
 	}
 	.articles {
 		display: flex;
 	 	flex-wrap: wrap;
 	 	justify-content: space-around;
-	 	flex-grow: 2;
 	}
     article {
     	height: 200px;
-    	width: 400px;
+    	width: 300px;
         margin-left: 8px;
         text-align: left;
-        margin-bottom: 150px;
+        margin-bottom: 165px;
     }
     aside {
     	align-items: flex-end;
@@ -166,12 +163,13 @@ p {
     	min-width: 336px;
     	min-height: 280px;
     	align-self: flex-start;
+    	margin-right: 8px;
     }
     .article {
     	display: inline;
 		margin-left: 70px;
 		margin-right: 70px;
-		width: initial;
+
 	}
 	nav li:hover {
 		background-color: #f7cac9;
